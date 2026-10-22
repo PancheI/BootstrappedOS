@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased
+- New skill: `consultative-selling`. Every conversation with a buyer, written or live: thank first, open with one lived fact or one question, answer product questions in one line and ask back, give options with your own product last, one clear ask once the pain is real, and a same-day debrief.
+
 ## 5.0.0 (22 Oct 2026): open source
 - One contract for the whole repo: [`ARCHITECTURE.md`](ARCHITECTURE.md) says where each fact lives. Shared rules in `plugins/bootstrapped-os/shared/` (agent contract, gates, stages, the `knowledge/` tree), and templates for new agents, skills, commands and guides in `templates/` and `guides/_template.md`.
 - `OS.md` is the only list of roles, skills, commands and models. README links to it instead of repeating it.

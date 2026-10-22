@@ -36,7 +36,7 @@ You are the CEO. Your AI company has six departments. The **Chief of Staff** (yo
 | **Growth** | Head of Growth | `head-of-growth` | launch; growth module: head-of-growth, head-of-seo | `/launch-week`; growth module: `/critique-page` `/check-funnel` `/seo-brief` | Search Console, Bing, IndexNow, PostHog | sonnet |
 | | Head of Content | `head-of-content` | content-posts, lead-magnets | `/post-from-a-win` `/content-week` `/lead-magnet` | LinkedIn, X | sonnet |
 | | Creative Director | `creative-director` | video module: launch-video, creative-director | inside `/start-from-zero` (needs the video module) | ElevenLabs, Remotion | sonnet |
-| **Sales & Customers** | Head of Sales | `head-of-sales` | buyer-signals, sales-outreach | `/first-customers` | LinkedIn and X by hand, Gmail drafts | sonnet |
+| **Sales & Customers** | Head of Sales | `head-of-sales` | buyer-signals, sales-outreach, consultative-selling | `/first-customers` | LinkedIn and X by hand, Gmail drafts | sonnet |
 | | Customer Writer | `one-customer-writer` | (one person per run) | inside sales and support | Gmail drafts | haiku |
 | | Head of Support | `head-of-support` | support-inbox, customer-emails | `/triage-inbox` `/write-emails` | Gmail | sonnet |
 | **Operations** | Head of Analytics | `head-of-analytics` | numbers | `/weekly-review` | PostHog, AgentaOS | sonnet |
