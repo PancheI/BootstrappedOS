@@ -9,20 +9,55 @@
   "problem": {
     "title": "Pricing is a guess until it isn't",
     "quotes": [
-      { "text": "Replace with a real complaint from your buyer, in their words.", "source": "Where it was said", "url": "https://example.com" },
-      { "text": "A second real quote. Link it.", "source": "Where it was said", "url": "https://example.com" },
-      { "text": "A third. No link, no quote.", "source": "Where it was said", "url": "https://example.com" }
+      {
+        "text": "Replace with a real complaint from your buyer, in their words.",
+        "source": "Where it was said",
+        "url": "https://example.com"
+      },
+      {
+        "text": "A second real quote. Link it.",
+        "source": "Where it was said",
+        "url": "https://example.com"
+      },
+      {
+        "text": "A third. No link, no quote.",
+        "source": "Where it was said",
+        "url": "https://example.com"
+      }
     ]
   },
   "steps": [
-    { "title": "Paste your pricing page", "body": "Or type your price and what you sell." },
-    { "title": "Get two models", "body": "Each with a live example of who sells that way." },
-    { "title": "See your break-even", "body": "How many buyers cover your costs, in plain numbers." }
+    {
+      "title": "Paste your pricing page",
+      "body": "Or type your price and what you sell."
+    },
+    {
+      "title": "Get two models",
+      "body": "Each with a live example of who sells that way."
+    },
+    {
+      "title": "See your break-even",
+      "body": "How many buyers cover your costs, in plain numbers."
+    }
   ],
   "faq": [
-    { "q": "Who is this for?", "a": "Founders with a live product who haven't been paid yet, or barely." },
-    { "q": "Do you store my data?", "a": "Only your email if you join the waitlist. Nothing else." }
+    {
+      "q": "Who is this for?",
+      "a": "Founders with a live product who haven't been paid yet, or barely."
+    },
+    {
+      "q": "Do you store my data?",
+      "a": "Only your email if you join the waitlist. Nothing else."
+    }
   ],
-  "founder": { "name": "Your name", "line": "One true line about why you built this." },
-  "legal": { "company": "Your name or company", "email": "you@example.com", "country": "Your country" }
+  "founder": {
+    "name": "Your name",
+    "line": "One true line about why you built this."
+  },
+  "legal": {
+    "company": "Your name or company",
+    "email": "you@example.com",
+    "country": "Your country"
+  },
+  "madeWith": true
 }

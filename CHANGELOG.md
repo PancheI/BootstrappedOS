@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Launch starter: a "Made with Bootstrapped OS" footer credit (`madeWith` in `product.json`, on by default, one line to turn off), and a README badge for projects built with it.
 - New skill: `consultative-selling`. Every conversation with a buyer, written or live: thank first, open with one lived fact or one question, answer product questions in one line and ask back, give options with your own product last, one clear ask once the pain is real, and a same-day debrief.
 
 ## 5.0.0 (22 Oct 2026): open source

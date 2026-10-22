@@ -48,6 +48,15 @@ Superpowers (obra), Anthropic's feature-dev and code-review plugins, coreyhaines
 
 **Disclosure:** AgentaOS (payments) is my own company. The launch starter's checkout uses it; everything else works without it.
 
+## Built something with it?
+The launch starter's footer says "Made with Bootstrapped OS" (set `"madeWith": false` in `product.json` to remove it). Or add this to your README:
+
+```markdown
+[![Made with Bootstrapped OS](https://img.shields.io/badge/made%20with-Bootstrapped%20OS-4F46E5)](https://bootstrappedmakers.com/bootstrapped-os?ref=badge)
+```
+
+Tell us in [Discussions](https://github.com/PancheI/BootstrappedOS/discussions) and we'll add you to the makers wall.
+
 ## Community
 Follow along for updates:
 - **Follow me on X:** [@PIsajeski](https://x.com/PIsajeski)
