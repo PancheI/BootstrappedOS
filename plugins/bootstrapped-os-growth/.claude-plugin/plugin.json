@@ -1,0 +1,12 @@
+{
+  "name": "bootstrapped-os-growth",
+  "version": "5.0.0",
+  "description": "Requires bootstrapped-os. Conversion and SEO: find why visitors don't sign up or pay, and whether Google and AI answers name you.",
+  "author": {
+    "name": "Panche Isajeski",
+    "url": "https://bootstrappedmakers.com"
+  },
+  "homepage": "https://bootstrappedmakers.com/bootstrapped-os",
+  "repository": "https://github.com/PancheI/BootstrappedOS",
+  "license": "MIT"
+}

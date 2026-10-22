@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+knowledge/
+*.log
+.sensitive-denylist*

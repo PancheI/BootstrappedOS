@@ -1,0 +1,12 @@
+{
+  "name": "bootstrapped-os",
+  "version": "5.0.0",
+  "description": "Your AI team in six departments (Strategy, Finance, Product & Engineering, Growth, Sales & Customers, Operations), run by a Chief of Staff and sharing one knowledge base: from a niche idea to a launched product with checkout, then first customers. Roles draft and propose. Send tools are blocked; deploys, migrations, money moves, public posts and deletes ask you first. Browser clicks aren't hooked, so agents stop before them. Full role list: OS.md.",
+  "author": {
+    "name": "Panche Isajeski",
+    "url": "https://bootstrappedmakers.com"
+  },
+  "homepage": "https://bootstrappedmakers.com/bootstrapped-os",
+  "repository": "https://github.com/PancheI/BootstrappedOS",
+  "license": "MIT"
+}

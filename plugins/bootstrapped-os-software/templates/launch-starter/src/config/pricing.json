@@ -1,0 +1,32 @@
+{
+  "_note": "The pricing models live here once: the landing page, the checkout and `npm run plans` (which creates them in AgentaOS) all read this file. Fill it from /pricing-audit: one pick, every number tagged.",
+  "currency": "USD",
+  "plans": [
+    {
+      "key": "one-off",
+      "name": "One check",
+      "price": 19,
+      "type": "one_time",
+      "interval": null,
+      "trialDays": null,
+      "features": ["One product, two pricing models", "Break-even on your costs", "Yours to keep"],
+      "highlight": false,
+      "linkId": { "test": "", "live": "" }
+    },
+    {
+      "key": "monthly",
+      "name": "Every month",
+      "price": 9,
+      "type": "subscription",
+      "interval": "month",
+      "trialDays": null,
+      "features": ["A fresh check every month", "Track every price change", "Cancel any time"],
+      "highlight": true,
+      "linkId": { "test": "", "live": "" }
+    }
+  ],
+  "model": {
+    "why": "SAMPLE reasoning: a one-off for the curious, a monthly for founders who change price often. Replace with your /pricing-audit pick.",
+    "breakEven": "SAMPLE: 12 monthly buyers cover $108 a month of costs (arithmetic)."
+  }
+}

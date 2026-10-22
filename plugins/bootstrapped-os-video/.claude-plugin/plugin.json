@@ -1,0 +1,12 @@
+{
+  "name": "bootstrapped-os-video",
+  "version": "5.0.0",
+  "description": "Requires bootstrapped-os. Videos: a simple launch video of about 30 seconds in an afternoon, plus an advanced pipeline that copies the timing of films you like (Remotion + ElevenLabs).",
+  "author": {
+    "name": "Panche Isajeski",
+    "url": "https://bootstrappedmakers.com"
+  },
+  "homepage": "https://bootstrappedmakers.com/bootstrapped-os",
+  "repository": "https://github.com/PancheI/BootstrappedOS",
+  "license": "MIT"
+}

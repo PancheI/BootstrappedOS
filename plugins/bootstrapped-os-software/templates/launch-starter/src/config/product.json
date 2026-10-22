@@ -1,0 +1,28 @@
+{
+  "_note": "SAMPLE. /start-from-zero rewrites this file from your real buyer, their words and your price. Never invent quotes: each one needs a real link.",
+  "name": "Price Check",
+  "domain": "pricecheck.example",
+  "tagline": "Know what to charge before anyone has paid.",
+  "promise": "Paste your pricing page. Get two pricing models, what each earns, and how many buyers you need to break even.",
+  "buyer": "Solo founders with a live product and no paying customers yet",
+  "cta": "Check my price",
+  "problem": {
+    "title": "Pricing is a guess until it isn't",
+    "quotes": [
+      { "text": "Replace with a real complaint from your buyer, in their words.", "source": "Where it was said", "url": "https://example.com" },
+      { "text": "A second real quote. Link it.", "source": "Where it was said", "url": "https://example.com" },
+      { "text": "A third. No link, no quote.", "source": "Where it was said", "url": "https://example.com" }
+    ]
+  },
+  "steps": [
+    { "title": "Paste your pricing page", "body": "Or type your price and what you sell." },
+    { "title": "Get two models", "body": "Each with a live example of who sells that way." },
+    { "title": "See your break-even", "body": "How many buyers cover your costs, in plain numbers." }
+  ],
+  "faq": [
+    { "q": "Who is this for?", "a": "Founders with a live product who haven't been paid yet, or barely." },
+    { "q": "Do you store my data?", "a": "Only your email if you join the waitlist. Nothing else." }
+  ],
+  "founder": { "name": "Your name", "line": "One true line about why you built this." },
+  "legal": { "company": "Your name or company", "email": "you@example.com", "country": "Your country" }
+}

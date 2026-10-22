@@ -1,0 +1,31 @@
+{
+  "name": "bootstrapped-os",
+  "owner": {
+    "name": "Panche Isajeski"
+  },
+  "metadata": {
+    "description": "Your AI team for a one-person business - a core every business uses, plus software, growth and video modules."
+  },
+  "plugins": [
+    {
+      "name": "bootstrapped-os",
+      "source": "./plugins/bootstrapped-os",
+      "description": "Core: for any business."
+    },
+    {
+      "name": "bootstrapped-os-software",
+      "source": "./plugins/bootstrapped-os-software",
+      "description": "Module: if you build software."
+    },
+    {
+      "name": "bootstrapped-os-growth",
+      "source": "./plugins/bootstrapped-os-growth",
+      "description": "Module: page critique, funnel and SEO. Requires bootstrapped-os."
+    },
+    {
+      "name": "bootstrapped-os-video",
+      "source": "./plugins/bootstrapped-os-video",
+      "description": "Module: launch videos, simple to advanced."
+    }
+  ]
+}

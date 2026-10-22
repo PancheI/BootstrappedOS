@@ -1,0 +1,15 @@
+name: Something didn't work
+description: A skill, agent, command or install step did the wrong thing
+labels: [bug]
+body:
+  - type: input
+    id: where
+    attributes: { label: Which skill, agent or command?, placeholder: "/start-from-zero stage 3, pricing-audit, INSTALL.md step 3…" }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: What happened, and what did you expect?, description: "Paste the relevant output. Remove keys, emails and customer names first." }
+    validations: { required: true }
+  - type: input
+    id: env
+    attributes: { label: Your setup, placeholder: "macOS 15 / Windows 11, claude --version, core connected yes/no" }

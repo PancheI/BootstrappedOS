@@ -1,0 +1,12 @@
+{
+  "name": "bootstrapped-os-software",
+  "version": "5.0.0",
+  "description": "For businesses that build software: plan, build test-first, independent review, browser check and a release gate, with architect, implementer, reviewer and verifier agents, plus the launch starter. Requires bootstrapped-os (the core plugin).",
+  "author": {
+    "name": "Panche Isajeski",
+    "url": "https://bootstrappedmakers.com"
+  },
+  "homepage": "https://bootstrappedmakers.com/bootstrapped-os",
+  "repository": "https://github.com/PancheI/BootstrappedOS",
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+name: Sensitive info check
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: No keys, emails, phone numbers or local paths
+        run: bash scripts/check-sensitive.sh --all
+      - name: Hook safety tests
+        run: |
+          if [ -f plugins/bootstrapped-os/hooks/test-hooks.sh ]; then bash plugins/bootstrapped-os/hooks/test-hooks.sh; fi

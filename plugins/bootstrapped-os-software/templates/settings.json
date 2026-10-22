@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status)", "Bash(git diff:*)", "Bash(git log:*)", "Bash(git branch:*)",
+      "Bash(npm test:*)", "Bash(pnpm test:*)", "Bash(yarn test:*)",
+      "Bash(npm run lint:*)", "Bash(pnpm lint:*)", "Bash(npm run typecheck:*)", "Bash(pnpm typecheck:*)"
+    ],
+    "ask": [
+      "Bash(git push:*)", "Bash(git merge:*)", "Bash(git tag:*)",
+      "Bash(gh pr merge:*)", "Bash(gh release:*)",
+      "Bash(vercel:*)", "Bash(npx vercel:*)",
+      "Bash(wrangler:*)", "Bash(npx wrangler:*)",
+      "Bash(supabase db:*)", "Bash(npx supabase db:*)",
+      "Bash(supabase migration:*)", "Bash(npx supabase migration:*)",
+      "Bash(npm publish:*)", "Bash(pnpm publish:*)",
+      "Bash(npm run plans -- --yes:*)"
+    ],
+    "deny": [
+      "Bash(rm -rf /:*)", "Bash(rm -rf ~:*)", "Bash(dropdb:*)"
+    ]
+  }
+}

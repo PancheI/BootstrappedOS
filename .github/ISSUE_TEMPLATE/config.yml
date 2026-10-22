@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security problem
+    url: https://github.com/PancheI/BootstrappedOS/security/advisories/new
+    about: Report privately, please.
+  - name: Membership and the Bootstrapped core
+    url: https://bootstrappedmakers.com/bootstrapped-os
+    about: Keys, membership and the knowledge core.

@@ -1,0 +1,4 @@
+// Add to src/Root.tsx: the import at the top, the two compositions inside <>...</>.
+import { Remake, REMAKE_FRAMES, REMAKE_LOCKED_FRAMES, REMAKE_FPS } from "./Remake/Remake";
+      <Composition id="Remake" component={Remake} durationInFrames={REMAKE_FRAMES} fps={REMAKE_FPS} width={1920} height={1080} />
+      <Composition id="RemakeLocked" component={Remake} defaultProps={{ locked: true, muted: true }} durationInFrames={REMAKE_LOCKED_FRAMES} fps={REMAKE_FPS} width={1920} height={1080} />

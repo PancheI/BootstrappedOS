@@ -1,0 +1,10 @@
+node_modules
+.next
+.env
+.env*.local
+.vercel
+next-env.d.ts
+*.tsbuildinfo
+supabase/.temp
+# The engineering ledger, briefs and review diffs: local working notes, never public
+.dev/

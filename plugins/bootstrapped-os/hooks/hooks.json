@@ -1,0 +1,42 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/guard-gates.sh\""
+          }
+        ]
+      },
+      {
+        "matcher": "^(?!mcp__.*__(create|list|get|update|delete)[_-][A-Za-z_-]*[Dd]raft)mcp__.*__(?:[A-Za-z0-9]+[_-])*([Ss]end|[Rr]eply|[Ff]orward|[Pp]ost_?[Mm]essage|postMessage|[Pp]ublish)(?:[_-].*)?$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/block-send.sh\""
+          }
+        ]
+      },
+      {
+        "matcher": "^mcp__.*__(?:[A-Za-z0-9]+[_-])*(apply_migration|execute_sql|run_sql|deploy|deploy_[a-z_]+|delete_branch|reset_branch|drop_[a-z_]+)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/ask-mcp.sh\""
+          }
+        ]
+      },
+      {
+        "matcher": "^(?!mcp__.*__(list|get|search|retrieve|read|fetch|find|count|query|describe|check)[_-])mcp__.*__(?:[A-Za-z0-9]+[_-])*(refunds?|payouts?|transfers?|charges?|create[_-]payment|cancel[_-]subscription|create[_-]post|tweet|share|trash|delete|remove)(?:[_-].*)?$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/ask-mcp.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}

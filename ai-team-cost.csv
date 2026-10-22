@@ -1,0 +1,9 @@
+Department,Roles,Budget setup: what it needs,Budget (USD/month),Author's setup: tool,Author's setup (USD/month)
+Office of the CEO,Chief of Staff,An AI plan that runs Claude Code,20,Claude Code (Max plan),100-200
+Strategy,Head of Research; Idea Critic; Head of Positioning; Brand Designer,The same AI plan + a visible Chrome,0,Same plan,0
+Finance,CFO; Head of Grants,The same AI plan + your payment provider,0,Same plan + AgentaOS (own),0
+Product & Engineering,Head of Design; Head of Infrastructure; Head of Engineering; Browser Checker,The same AI plan + free tiers of GitHub Vercel Supabase Cloudflare,0,Same plan + the same free tiers,0
+Growth,Head of Growth; Head of Content; Creative Director,The same AI plan + Search Console + Bing,0,Same plan + Search Console + Bing + ElevenLabs (startup credits) + Remotion,0
+Sales & Customers,Head of Sales; Customer Writer; Head of Support,The same AI plan + LinkedIn or X by hand + your inbox,0,Same plan + LinkedIn and X by hand + Gmail,0
+Operations,Head of Analytics; Watch,An analytics free tier,0,PostHog free tier,0
+TOTAL,,,20,,100-200 plus startup credits

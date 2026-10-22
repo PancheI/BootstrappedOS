@@ -1,0 +1,23 @@
+# .github/workflows/ci.yml - lint, typecheck, build, test on every push and PR (npm, pnpm or yarn)
+# The launch starter has all four scripts. In another repo, a missing script is skipped (--if-present).
+name: ci
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        if: hashFiles('pnpm-lock.yaml') != ''
+        with: { version: 10 } # delete this line if package.json has a "packageManager" field
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: install
+        run: |
+          if [ -f pnpm-lock.yaml ]; then pnpm install --frozen-lockfile
+          elif [ -f yarn.lock ]; then yarn install --immutable
+          else npm ci; fi
+      - run: npm run lint --if-present
+      - run: npm run typecheck --if-present
+      - run: npm run build --if-present
+      - run: npm test --if-present

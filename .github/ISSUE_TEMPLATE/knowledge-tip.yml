@@ -1,0 +1,12 @@
+name: Knowledge tip
+description: A directory, grant, AI credit or lesson that worked (or didn't) for you
+labels: [knowledge]
+body:
+  - type: dropdown
+    id: kind
+    attributes: { label: What is it?, options: [Launch directory, Grant or AI credits, Lesson, Other] }
+    validations: { required: true }
+  - type: textarea
+    id: detail
+    attributes: { label: Details, description: "Link, what happened, the date. No private data." }
+    validations: { required: true }

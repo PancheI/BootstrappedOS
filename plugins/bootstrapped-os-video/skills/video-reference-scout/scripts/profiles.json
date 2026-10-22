@@ -1,0 +1,50 @@
+{
+ "_note": "Profiles are learned from YOUR OWN liked videos: python3 scout.py calibrate <name> liked1.mp4 liked2.mp4. The 'example' profile below only shows the structure: metric: [target, tolerance, weight].",
+ "example": {
+  "dur": [
+   30.0,
+   15.0,
+   1
+  ],
+  "cuts_pm": [
+   10.0,
+   4.0,
+   1.5
+  ],
+  "energy": [
+   4.0,
+   1.5,
+   1.5
+  ],
+  "still_frac": [
+   0.1,
+   0.12,
+   1.5
+  ],
+  "cam_cont": [
+   0.75,
+   0.26,
+   3
+  ],
+  "ui_frac": [
+   0.65,
+   0.23,
+   2.5
+  ],
+  "text_kin": [
+   0.13,
+   0.08,
+   2
+  ],
+  "bpm": [
+   120.0,
+   40.0,
+   1.5
+  ],
+  "bright": [
+   0.17,
+   0.08,
+   1
+  ]
+ }
+}

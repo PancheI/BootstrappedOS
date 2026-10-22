@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "bootstrapped-core": {
+      "type": "http",
+      "url": "${BOOTSTRAPPED_CORE_URL:-https://app.bootstrappedmakers.com/api/core/mcp}",
+      "headers": { "Authorization": "Bearer ${BOOTSTRAPPED_KEY:-none}" }
+    }
+  }
+}
