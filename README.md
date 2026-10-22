@@ -49,9 +49,12 @@ Superpowers (obra), Anthropic's feature-dev and code-review plugins, coreyhaines
 **Disclosure:** AgentaOS (payments) is my own company. The launch starter's checkout uses it; everything else works without it.
 
 ## Community
-- **Live workshops,** with the replay after. [The last one on YouTube](https://youtu.be/QsFzF8122G0).
-- **Founders' chat** for members, on Telegram, through [bootstrappedmakers.com](https://bootstrappedmakers.com).
-- **Questions and ideas:** [GitHub Discussions](https://github.com/PancheI/BootstrappedOS/discussions).
+Follow along for updates:
+- **Follow on X:** [@PIsajeski](https://x.com/PIsajeski) · **LinkedIn:** [Panche Isajeski](https://www.linkedin.com/in/pan-i)
+- **Keep Going, the free weekly newsletter:** what worked, with the numbers. [Sign up at bootstrappedmakers.com](https://bootstrappedmakers.com/?utm_source=github&utm_medium=readme#hwl)
+- **Live workshops,** with the replay after: [the last one on YouTube](https://youtu.be/QsFzF8122G0)
+- **Questions and ideas:** [GitHub Discussions](https://github.com/PancheI/BootstrappedOS/discussions)
+- **Founders' chat** for members, through [bootstrappedmakers.com](https://bootstrappedmakers.com/?utm_source=github&utm_medium=readme)
 
 ## Contributing
 Issues and pull requests are welcome: [`CONTRIBUTING.md`](CONTRIBUTING.md). Security reports: [`SECURITY.md`](SECURITY.md).
