@@ -1,16 +1,14 @@
 # Changelog
 
-## Unreleased (22 Oct 2026): the skeleton
+## 5.0.0 (22 Oct 2026): open source
 - One contract for the whole repo: [`ARCHITECTURE.md`](ARCHITECTURE.md) says where each fact lives. Shared rules in `plugins/bootstrapped-os/shared/` (agent contract, gates, stages, the `knowledge/` tree), and templates for new agents, skills, commands and guides in `templates/` and `guides/_template.md`.
 - `OS.md` is the only list of roles, skills, commands and models. README links to it instead of repeating it.
 - Guides 02-12 rewritten in one shape: what you get, how to set it up, what you should see, one example, what to avoid. Role names match `OS.md`.
 - Private figures removed from the method. The author's own numbers live only in [`example-my-setup.md`](example-my-setup.md).
 - `QUICKSTART.md` now points to `INSTALL.md` and the first guide.
-
-## 5.0.0 (21 Oct 2026): open source
 - MIT licence. Install straight from GitHub: `claude plugin marketplace add PancheI/BootstrappedOS`.
 - Open method, paid knowledge: lessons, launch directories, grants and AI credits, pricing benchmarks and the author's results moved to the Bootstrapped core, which members connect with one key (CONNECT.md). Without a key every step still runs on the method.
-- New: Head of Sales finds buyer signals (3 real people asking, with drafted replies).
+- New: Head of Sales finds buyer signals: real people asking this month, with the link and a suggested angle. You write the reply.
 - Repo safety: a check blocks keys, emails, phone numbers and local paths in every commit and pull request.
 
 ## 4.1.0
