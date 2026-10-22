@@ -50,8 +50,8 @@ Superpowers (obra), Anthropic's feature-dev and code-review plugins, coreyhaines
 
 ## Community
 Follow along for updates:
-- **Follow on X:** [@PIsajeski](https://x.com/PIsajeski) · **LinkedIn:** [Panche Isajeski](https://www.linkedin.com/in/pan-i)
-- **Keep Going, the free weekly newsletter:** what worked, with the numbers. [Sign up at bootstrappedmakers.com](https://bootstrappedmakers.com/?utm_source=github&utm_medium=readme#hwl)
+- **Follow me on X:** [@PIsajeski](https://x.com/PIsajeski)
+- **Mailing list and newsletter:** join free at [bootstrappedmakers.com](https://bootstrappedmakers.com/?utm_source=github&utm_medium=readme#hwl)
 - **Live workshops,** with the replay after: [the last one on YouTube](https://youtu.be/QsFzF8122G0)
 - **Questions and ideas:** [GitHub Discussions](https://github.com/PancheI/BootstrappedOS/discussions)
 - **Founders' chat** for members, through [bootstrappedmakers.com](https://bootstrappedmakers.com/?utm_source=github&utm_medium=readme)
